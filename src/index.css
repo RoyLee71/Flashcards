@@ -64,18 +64,81 @@ h1 {
   transform: rotateY(180deg);
 }
 
-.next-button {
+/* Update */
+
+.guess-input {
+  display: flex;
+  align-items: center;
   margin-top: 1rem;
+}
+
+.guess-input input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+}
+
+.guess-input button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   background-color: #4CAF50;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  border-radius: 5px;
 }
 
-.next-button:hover {
+.guess-input button:hover {
   background-color: #45a049;
 }
+
+.guess-input button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.guess-result {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.guess-result.correct {
+  color: green;
+}
+
+.guess-result.incorrect {
+  color: red;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 1rem;
+}
+
+.navigation-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  width: 90px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  /* transition: background-color 0.3s; */
+}
+
+.navigation-buttons button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.navigation-buttons button:hover {
+  background-color: #45a049;
+}
+
+
+

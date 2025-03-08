@@ -1,4 +1,4 @@
-# Web Development Project 3 - TRIVIA FLASHCARDS
+# Web Development Project 2 - TRIVIA FLASHCARDS
 
 Submitted by: Roy Adibi
 
@@ -44,7 +44,7 @@ updating components without breaking the code was challenging enough.
 
 ## License
 
-    Copyright [2024] [Roy Adibi]
+    Copyright [2025] [Roy Adibi]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
